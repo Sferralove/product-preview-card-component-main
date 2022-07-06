@@ -1,0 +1,42 @@
+:root {
+    // COLORI //
+
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+    
+    // FONT PERSONALI //
+
+}
+
+body {
+    background-color: var(--cream);
+}
+
+.card-product-tag {
+    letter-spacing: 0.3rem;
+    color: var(--dark-grayish-blue);
+}
+
+.card-product-title {
+    font-family: 'Fraunces';
+    font-weight: 700;
+}
+
+.card-product-description {
+    color: var(--dark-grayish-blue);
+}
+
+.card-product-discount-price {
+    font-family: 'Fraunces';
+}
+
+.card-product-original-price {
+    color: var(--dark-grayish-blue);
+}
+
+.card-product-add-to-cart {
+    font-family: 'Montserrat';
+}
